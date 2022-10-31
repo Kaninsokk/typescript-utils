@@ -1,0 +1,23 @@
+{
+    "name": "typescript-utils",
+    "workspaces": [
+        "packages/*"
+    ],
+    "version": "0.0.1",
+    "private": "true",
+    "description": "Personal utils and types used in daily dev",
+    "repository": "git@github.com:Kaninsokk/typescript-utils.git",
+    "author": "Thomas Godheim <thomas@evonorconsulting.no>",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "@trivago/prettier-plugin-sort-imports": "^3.4.0",
+        "husky": "^8.0.0",
+        "prettier": "^2.7.1",
+        "typescript": "^4.8.4"
+    },
+    "scripts": {
+        "prepare": "husky install",
+        "test": "Echo \"hello\""
+    }
+}

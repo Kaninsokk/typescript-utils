@@ -1,0 +1,11 @@
+{
+    "name": "types",
+    "version": "0.0.1",
+    "description": "Typescript types ",
+    "main": "index.js",
+    "author": "Thomas Godheim",
+    "license": "MIT",
+    "peerDependencies": {
+        "typescript": "*"
+    }
+}
